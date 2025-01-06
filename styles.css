@@ -90,3 +90,18 @@ h4 {
     padding-bottom: 20px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px){
+    .sub-container {
+        width: 80%;
+        position: absolute;
+        top: 200px;
+        left: 13%;
+        background-color: whitesmoke;
+        border-radius: 10px;
+    }
+    
+    .flex1 {
+        gap: 130px;
+    }
+}
